@@ -9,15 +9,23 @@ body {
     background-color: #fab22e;
 }
 
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+
 .wrapper {
     width: 80vmin;
     padding: 50px 40px;
     background-color: #15161a;
     transform: translate(-50% -50%); /* Esto que hace? */
-    top: 50%; /* Esto que hace? */
-    left: 50%; /* Esto que hace? */
+    position: absolute;
+
     border-radius: 10px;
-    box-shadow: 20px 20px 40px whitesmoke; /*box-shadow: 20px 20px 40px rgba(97, 63, 0, 0, 0.4)*/
+    box-shadow: 20px 2º0px 40px whitesmoke; /*box-shadow: 20px 20px 40px rgba(97, 63, 0, 0, 0.4)*/
 }
 
 span {
